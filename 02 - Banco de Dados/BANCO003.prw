@@ -7,6 +7,7 @@ USER FUNCTION BANCO003()
 	local aArea := SB1->(GetArea())
 	local cQuery := ""
 	local aDados := {}
+	local nCount := 0
 
 	cQuery := " SELECT "
 	cQuery += " B1_COD AS CODIGO, "
